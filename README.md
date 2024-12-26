@@ -1,7 +1,5 @@
 > Vinyl Player is an application that plays music by displaying it as a Vinyl record
 
-TODO:
-
 ## Setup
 - [ ] Set up Spotify's Web Playback SDK for playback functionality.
 - [ ] Implement OAuth to authenticate users and obtain the access token.
