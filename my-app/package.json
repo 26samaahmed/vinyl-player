@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "serve": "vite preview",
+    "server": "node server/index.js"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -18,11 +18,14 @@
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
+    "dotenv": "^16.4.7",
     "eslint": "^9.17.0",
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.16",
+    "express": "^4.21.2",
     "globals": "^15.14.0",
+    "npm-run-all": "^4.1.5",
     "vite": "^6.0.5"
   }
 }
